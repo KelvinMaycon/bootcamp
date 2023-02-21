@@ -5,8 +5,72 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bootcamp DNC</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <style>
+        body{
+            margin: 0px;
+            padding: 0px;
+        }
+        #principal{            
+            width: 100%;
+            height: 100px;            
+            background-color: #303030;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-radius: 1px solid #BABABA;
+        }
+        #principal div a{
+            font-family: 'inter';
+            text-decoration: none;            
+            
+            font-size: 25px;            
+            color: #FFFFFF;
+        }
+            #principal div a:hover{
+                color: #CCCCCC;
+            }
+        #menu{
+            display: flex;
+            width: 47%;
+            justify-content: space-around;
+            align-items: center;
+            margin-left: 3%;
+        }
+        #principal button{
+            margin-right: 115px;
+            height: 39px;            
+            width: 80px;
+            background: #0C70F2;
+            border: none;
+            color: #FFFFFF;
+            font-family: 'inter';
+            font-size: 15px;
+            box-shadow: 3px 2px 4px rgba(12, 112, 242, 0.40);
+            cursor:pointer;
+            
+        }
+            #principal button:hover{
+                color: #CCCCCC;
+            }
+
+        
+
+    </style>
 </head>
 <body>
+    <nav id="principal">
+        <div id="menu">
+            <a href="">Home</a>
+            <a href="">Ultimas Edições</a>
+            <a href="">Requisitos para participar</a>
+        </div>
+        <button>Login</button>
+        
+
+    </nav>
     
 </body>
 </html>

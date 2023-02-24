@@ -8,57 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
-    <style>
-        body{
-            margin: 0px;
-            padding: 0px;
-        }
-        #principal{            
-            width: 100%;
-            height: 100px;            
-            background-color: #303030;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            border-radius: 1px solid #BABABA;
-        }
-        #principal div a{
-            font-family: 'inter';
-            text-decoration: none;            
-            
-            font-size: 25px;            
-            color: #FFFFFF;
-        }
-            #principal div a:hover{
-                color: #CCCCCC;
-            }
-        #menu{
-            display: flex;
-            width: 47%;
-            justify-content: space-around;
-            align-items: center;
-            margin-left: 3%;
-        }
-        #principal button{
-            margin-right: 115px;
-            height: 39px;            
-            width: 80px;
-            background: #0C70F2;
-            border: none;
-            color: #FFFFFF;
-            font-family: 'inter';
-            font-size: 15px;
-            box-shadow: 3px 2px 4px rgba(12, 112, 242, 0.40);
-            cursor:pointer;
-            
-        }
-            #principal button:hover{
-                color: #CCCCCC;
-            }
-
-        
-
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <nav id="principal">
@@ -71,6 +21,114 @@
         
 
     </nav>
+    <section>
+        <header>
+            <h1>BOOTCAMP DNC</h1>
+            <h2>
+                Esse será um evento exclusivo para todos os alunos<br> 
+                da <b>DNC</b>, que querem <b style="background-color: black;">acelerar a carreira</b> com uma<br>
+                semana intensiva de conteúdo de mercado entre<br>
+             <b style="background-color: black;">BACK-END, FRONT-END & BANCO DE DADOS.</b>
+            </h2>
+
+        </header>
+        <form>
+            <div class="forms">
+                <label>Nome:</label>
+                <input type="text" placeholder="Insira seu nome aqui">
+
+            </div>
+            <div class="forms">
+                <label>Sobrenome:</label>
+                <input type="text" placeholder="Insira seu sobrenome aqui">
+
+            </div>
+            <div class="forms">
+                <label>Área de Interesse:</label>
+                <div class="checkboxItens">
+                    <input type="checkbox" value="FRONT-END" name="Área de Interesse">
+                    <label>Front-End</label>
+                
+                    <input type="checkbox" value="BACK-END" name="Área de Interesse">
+                    <label>Back-End</label>             
+               
+                    <input type="checkbox" value="BANCO-DE-DADOS" name="Área de Interesse">
+                    <label>Banco de Dados</label>
+                </div>
+
+            </div>
+            <div class="forms">
+                <label>E-mail:</label>
+                <input type="email" placeholder="Insira seu e-mail aqui">
+
+            </div>
+            <div class="forms">
+                <label>Telefone:</label>
+                <input type="text" placeholder="(99) 99999-9999">
+
+            </div>
+            <div class="forms">
+                <label>Insira uma frase criativa aqui:</label>
+                <input type="text" placeholder="Qual frase criativa você gostaria de falar? :)">
+
+            </div>
+
+            <input type="submit" value="Login">
+        </form>
+
+    </section>
+    <footer>
+        <div class="line1">
+            <nav>
+                <h3>Escolas</h3>
+                <ul>
+                    <li>
+                        <a href="">Formação em Tecnologia</a>
+                    </li>
+                    <li>
+                        <a href="">Formação em Marketing</a>
+                    </li>
+                    <li>
+                       <a href="">Formação em Dados</a>
+                    </li>
+                    <li>
+                        <a href="">Formação em Projeto</a>
+                    </li>
+                    <li>
+                        <a href="">Formação em Produto</a>
+                    </li>
+                </ul>
+
+            </nav>
+            <nav>
+                <h3 id="about">Sobre a DNC</h3>
+                <ul>
+                    <li>
+                        <a href="">Historia</a>
+                    </li>
+                    <li>
+                        <a href="">Missão e Valores</a>
+                    </li>
+                    <li>
+                        <a href="">Trabalhe Conosco</a>
+                    </li>
+                    <li>
+                        <a href="">Conteúdo Gratuito</a>
+                    </li>
+
+                </ul>
+            </nav>
+            <div id="adress">
+                © 2022 DTC Treinamentos & Consultoria<br> LTDA | CNPJ: 27.995.577/0001-37 | R.<br> Justino Cobra, 61 – Vila Ema | São José dos<br> Campos – SP | CEP 12243-030
+                
+            </div>
+        </div>
+        <div class="line2">
+            <a href="">Termos de Uso</a>  <a href="">Política de Privacidade</a>
+
+        </div>
+
+    </footer>
     
 </body>
 </html>
